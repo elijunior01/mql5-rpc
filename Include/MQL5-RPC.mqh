@@ -383,10 +383,6 @@ CArrayObj* CXMLRPCResult::getResults(){
 //+------------------------------------------------------------------+
 CXMLRPCResult::~CXMLRPCResult()
   {
-//delete m_cstrResponse;
-//delete m_params;
-   delete GetPointer(m_cstrResponse);
-   delete GetPointer(m_params);
    delete m_resultsArr;
   }
 //+------------------------------------------------------------------+
